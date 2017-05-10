@@ -64,6 +64,8 @@ export PATH=$PATH:/usr/local/smlnj/bin
 source $ZSH/oh-my-zsh.sh
 # rustup
 export PATH=$HOME/.cargo/bin:$PATH
+export http_proxy='http://localhost:8118'
+export https_proxy='http://localhost:8118'
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
@@ -111,7 +113,7 @@ alias -s jemdoc=jemdoc
 alias diary='/Users/jerry/Documents/ShanghaiTech/Diary'
 alias nd='python /Users/jerry/Documents/ShanghaiTech/Diary/generate.py'
 alias typora='open -a typora'
-alias sqlmap='python /Users/jerry/Documents/web security/sqlmap/sqlmap.py'
+alias sqlmap='python /Users/jerry/Documents/WebSecurity/sqlmap/sqlmap.py'
 alias ro='rlwrap ocaml'
 alias krust="/Users/jerry/Documents/ShanghaiTech/research/Rust/k-framework/Rust"
 alias gb="git branch"
